@@ -58,7 +58,8 @@ Page({
   gotoMiniProgram: function(event) {
     var appid = event.currentTarget.dataset.appid;
     wx.navigateToMiniProgram({
-      appId: appid
+      appId: appid,
+      path: 'index.html?wxgamecid=CCBgAAoXkpQY9RNKbeAY7O'
     })
   },
   switchChange: function(e) {
