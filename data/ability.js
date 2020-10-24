@@ -785,6 +785,30 @@ var ability = {
     hungerswitch: {
       cname: '饱了又饿',
       introduce: '每回合结束时会在满腹花纹与空腹花纹之间交替改变样子。'
+    },
+    curiousmedicine: {
+      cname: '怪药',
+      introduce: '出场时，伙伴的状态变化清零。'
+    },
+    transistor: {
+      cname: '电晶体',
+      introduce: '使用电属性的招式威力会提高。'
+    },
+    dragonsmaw: {
+      cname: '龙颚',
+      introduce: '使用龙属性的招式威力会提高。'
+    },
+    chillingneigh: {
+      cname: '苍白嘶鸣',
+      introduce: '如果打倒对手，攻击会提高。'
+    },
+    grimneigh: {
+      cname: '漆黑嘶鸣',
+      introduce: '如果打倒对手，特攻会提高。'
+    },
+    asone: {
+      cname: '人马一体',
+      introduce: '让对手紧张，使其无法食用树果。如果打倒对手，根据自身形态，攻击或特攻会提高。'
     }
   },
   getAbility: function(key) {
